@@ -54,7 +54,7 @@
     app.use(user.routes())
     app.use(router.routes())
 
-    app.listen(0925, () => {
+    app.listen(8888, () => {
         console.log('serve is running')
     })
 
